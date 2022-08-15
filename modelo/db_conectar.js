@@ -2,8 +2,8 @@
 import mysql from 'mysql' // o tambien const mysql = require('mysql');
 var conectar = mysql.createConnection({
       host     : 'localhost',
-      user     : 'root',
-      password : 'Admin@123',
+      user     : 'usr_empresa',
+      password : 'Empres@123',
       database : 'db_empresa'
   });
 
