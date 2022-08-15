@@ -1,5 +1,4 @@
 import express  from "express" // si no se utiliza type mode se deberia de declarar como const express = require('express');
-import { conectar } from "./modelo/db_conectar.js";
 import { crud_cliente } from "./controlador/crud_clientes.js"
 //Paso 7
 
