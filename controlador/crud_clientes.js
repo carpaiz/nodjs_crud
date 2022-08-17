@@ -1,4 +1,4 @@
-import { query } from "express";
+import express  from "express";
 import { conectar } from "../modelo/db_conectar.js";
 
 var crud_cliente =({});
